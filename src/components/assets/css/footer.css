@@ -1,0 +1,29 @@
+.fh5co-social-icons > a {
+  padding: 4px 10px;
+  color: #ff5722;
+}
+.fh5co-social-icons > a i {
+  font-size: 26px;
+}
+.fh5co-social-icons > a:active,
+.fh5co-social-icons > a:focus,
+.fh5co-social-icons > a:hover {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+#footer {
+  background: #ff5722;
+  padding: 60px 0 40px;
+}
+#footer p {
+  color: #fff;
+  font-size: 14px;
+}
+#footer p a {
+  color: rgba(255, 255, 255, 0.5);
+}
+#footer p a:active,
+#footer p a:focus,
+#footer p a:hover {
+  color: rgba(255, 255, 255, 0.9) !important;
+}

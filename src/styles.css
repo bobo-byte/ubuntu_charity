@@ -1,0 +1,330 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.js .animate-box {
+  opacity: 0;
+}
+
+.fh5co-testimonial {
+  position: relative;
+  background: #fff;
+  padding: 4em 0;
+  border-radius: 5px;
+  width: 255px;
+  height: 0px;
+  padding-bottom: 289px;
+}
+
+.fh5co-testimonial figure {
+  position: absolute;
+  margin: 5%;
+  top: -50px;
+  left: 50%;
+  margin-left: -65px;
+  background-size: cover;
+}
+
+.fh5co-testimonial blockquote,
+.fh5co-testimonial > div {
+  border: none;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+
+.fh5co-testimonial blockquote p,
+.fh5co-testimonial > div p {
+  font-size: 18px;
+  line-height: 1.6em;
+  color: #555;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eee;
+}
+
+.grey-container {
+  background: rgba(0, 0, 0, 0.04);
+  padding: 7em 0;
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+#parent-slogan-1 {
+  width: 100%;
+  height: 595px;
+  position: relative;
+  background-image: url("https://source.unsplash.com/cVEOh_JJmEE/1600x900");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center bottom;
+}
+
+#brand-slogan-1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  bottom: 0px;
+}
+
+#k-slogan-container {
+  display: flex;
+  justify-content: center;
+  /*background: #e73f04; old*/
+  background: rgba(231, 63, 4, 0.5);
+
+  padding: 20px;
+}
+
+#b-slogan-1 {
+  color: whitesmoke;
+  font-weight: 750;
+}
+
+#d-slogan-container {
+  display: flex;
+  justify-content: center;
+  /*background: white; old*/
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+#donation-button-1 {
+  position: absolute;
+  top: 96%;
+  left: 0px;
+  right: 0px;
+}
+
+.stat-slogan {
+  font-size: 25px;
+  display: block;
+  padding: 20px;
+}
+
+hr {
+  border: solid #ff5722 2px;
+  background: #ff5722;
+  border-bottom: none;
+  width: 5%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.subheading-sections {
+  color: #848484;
+  font-size: 20px;
+}
+
+.scroll-to-top {
+  margin: 30px;
+}
+
+.tiles {
+  padding: 6vh 16vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+.emoji {
+  font-size: 70px;
+}
+
+.tile {
+  margin: 15px;
+  cursor: pointer;
+  overflow: hidden;
+  width: 15vw;
+  height: 15vw;
+}
+.tile img {
+  width: 100%;
+  transition: transform 500ms ease;
+}
+.tile img:hover {
+  transform: scale(1.1);
+}
+
+.text {
+  transition: background-size 0.4s ease;
+  background: linear-gradient(to bottom, transparent 62%, #fff87e 0) center
+    center/0% 75% no-repeat;
+  font-family: Quicksand;
+  font-size: 3rem;
+  padding: 0 6px 2px 6px;
+  cursor: pointer;
+  color: rgba(80, 89, 113, 0.7);
+  letter-spacing: 0.08rem;
+}
+.text:hover {
+  background-size: 100% 100%;
+}
+.text:active {
+  background-size: 80% 100%;
+}
+
+.services {
+  background: #fff;
+  padding: 40px 20px 20px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#fh5co-contact {
+  padding: 7em 0;
+}
+
+#fh5co-contact .contact-info li {
+  list-style: none;
+  margin: 0 0 20px;
+  position: relative;
+  padding-left: 40px;
+}
+
+#fh5co-contact .contact-info li i {
+  position: absolute;
+  top: 0.3em;
+  left: 0;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#fh5co-contact .contact-info {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-info {
+  font-size: 16px;
+  color: #848484;
+}
+
+#fh5co-contact input[type="text"] {
+  height: 50px;
+}
+
+#fh5co-contact .form-control {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: 400;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+
+ol,
+p,
+ul {
+  margin-bottom: 1.5em;
+}
+
+#fh5co-contact .contact-info li a {
+  font-weight: 400 !important;
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+#fh5co-contact .contact-info li a:hover {
+  color: #ff5722;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #brand-slogan-1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  #k-slogan-container {
+    padding: 10px;
+  }
+
+  #d-slogan-container {
+    padding: 10px;
+  }
+
+  #donation-button-1 {
+    position: absolute;
+    top: 108%;
+    left: 0px;
+    right: 0px;
+  }
+
+  #parent-slogan-1 {
+    height: 375px;
+  }
+
+  .stat-slogan {
+    font-size: 16px;
+  }
+
+  hr {
+    width: 10%;
+  }
+
+  .teamHeading {
+    padding-top: 10px;
+  }
+
+  .teamMember {
+    margin-bottom: 100px;
+    height: auto;
+    width: 100%;
+  }
+
+  #fh5co-contact {
+    padding: 3em 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .teamMember {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1400px) {
+  .teamMember {
+    margin-bottom: 100px;
+  }
+}
